@@ -1,12 +1,11 @@
 import { createRoot } from 'react-dom/client'
-import App from './pages/App'
-import LoginPage from './pages/login'
+import  Home   from './pages/App'
 import { browser } from 'react-dom'
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
-        <LoginPage />
+    <Home />
     </BrowserRouter>
 )  
